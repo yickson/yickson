@@ -1,5 +1,4 @@
 @extends('layouts.main')
-
 @section('content')
     <main class="profile-page">
         <section class="section-profile-cover section-shaped my-0">

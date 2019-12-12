@@ -179,7 +179,7 @@ function getOffsetParent(element) {
 
   // .offsetParent will return the closest TD or TABLE in case
   // no offsetParent is present, I hate this job...
-  if (['TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 && getStyleComputedProperty(offsetParent, 'position') === 'static') {
+  if (['TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 && getStyleComputedProperty(offsetParent, 'position') === 'partials') {
     return getOffsetParent(offsetParent);
   }
 
@@ -1294,7 +1294,7 @@ function getOppositeVariation(variation) {
  * - `bottom` (on bottom, centered)
  * - `auto-right` (on the side with more space available, alignment depends by placement)
  *
- * @static
+ * @partials
  * @type {Array}
  * @enum {String}
  * @readonly
@@ -2105,7 +2105,7 @@ var modifiers = {
  * })
  * ```
  * @type {Object}
- * @static
+ * @partials
  * @memberof Popper
  */
 var Defaults = {
@@ -2261,7 +2261,7 @@ class Popper {
    * and will be removed in v2! Use the PopperUtils module directly instead.
    * Due to the high instability of the methods contained in Utils, we can't
    * guarantee them to follow semver. Use them at your own risk!
-   * @static
+   * @partials
    * @private
    * @type {Object}
    * @deprecated since version 1.8

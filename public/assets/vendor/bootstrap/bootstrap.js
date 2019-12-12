@@ -1469,7 +1469,7 @@
       DROPLEFT: 'dropleft',
       MENURIGHT: 'dropdown-menu-right',
       MENULEFT: 'dropdown-menu-left',
-      POSITION_STATIC: 'position-static'
+      POSITION_STATIC: 'position-partials'
     };
     var Selector = {
       DATA_TOGGLE: '[data-toggle="dropdown"]',
@@ -1571,7 +1571,7 @@
             if (typeof this._config.reference.jquery !== 'undefined') {
               referenceElement = this._config.reference[0];
             }
-          } // If boundary is not `scrollParent`, then set position to `static`
+          } // If boundary is not `scrollParent`, then set position to `partials`
           // to allow the menu to "escape" the scroll parent's boundaries
           // https://github.com/twbs/bootstrap/issues/24251
 
@@ -1699,11 +1699,11 @@
             preventOverflow: {
               boundariesElement: this._config.boundary
             }
-          } // Disable Popper.js if we have a static display
+          } // Disable Popper.js if we have a partials display
 
         };
 
-        if (this._config.display === 'static') {
+        if (this._config.display === 'partials') {
           popperConfig.modifiers.applyStyle = {
             enabled: false
           };
@@ -2251,7 +2251,7 @@
               return;
             }
 
-            if (_this8._config.backdrop === 'static') {
+            if (_this8._config.backdrop === 'partials') {
               _this8._element.focus();
             } else {
               _this8.hide();

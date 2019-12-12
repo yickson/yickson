@@ -18,9 +18,9 @@
 </head>
 
 <body>
-@yield('header')
+@include('partials.header')
 @yield('content')
-@yield('footer')
+@include('partials.footer')
 <!-- Core -->
 <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/vendor/popper/popper.min.js') }}"></script>
