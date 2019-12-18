@@ -31,9 +31,9 @@
                             <span class="nav-link-inner--text">Información</span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item" target="_blank">Red Social - Laravel</a>
-                            <a href="#" class="dropdown-item">Aplicación de notas - Laravel</a>
-                            <a href="#" class="dropdown-item">Aplicación de notas - VueJs - MongoDB</a>
+                            <a href="https://social.yickson.cl" target="_blank" class="dropdown-item" target="_blank">Red Social - Laravel</a>
+                            <a href="https://notal.yickson.cl" target="_blank" class="dropdown-item">Aplicación de notas - Laravel</a>
+                            <a href="https://notas.yickson.cl" target="_blank" class="dropdown-item">Aplicación de notas - VueJs - MongoDB</a>
                             <a href="#" class="dropdown-item">Contacto</a>
                         </div>
                     </li>
