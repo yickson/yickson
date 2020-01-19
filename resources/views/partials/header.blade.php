@@ -1,8 +1,8 @@
 <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
         <div class="container">
-            <a class="navbar-brand mr-lg-5" href="../index.html">
-                <img src="{{ asset('assets/img/brand/white.png') }}" alt="brand">
+            <a class="navbar-brand mr-lg-5" href="/">
+                YICKSON
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,6 @@
                         <div class="col-6 collapse-brand">
                             <a href="/">
                                 Yickson
-                                {{--                                <img src="{{ asset('assets/img/brand/blue.png') }}" alt="brand">--}}
                             </a>
                         </div>
                         <div class="col-6 collapse-close">
