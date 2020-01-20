@@ -6,10 +6,10 @@
                 <h4 class="mb-0 font-weight-light">Espero te contactes conmigo.</h4>
             </div>
             <div class="col-lg-6 text-lg-center btn-wrapper">
-                <a target="_blank" href="https://twitter.com/YicksonDev" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+                <a target="_blank" href="https://twitter.com/YicksonDev" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Sigueme">
                     <i class="fa fa-twitter"></i>
                 </a>
-                <a target="_blank" href="https://github.com/yickson" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title="Star on Github">
+                <a target="_blank" href="https://github.com/yickson" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title="Repositorios">
                     <i class="fa fa-github"></i>
                 </a>
             </div>

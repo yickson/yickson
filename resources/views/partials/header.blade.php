@@ -39,13 +39,13 @@
                 </ul>
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+                        <a class="nav-link nav-link-icon" href="https://twitter.com/YicksonDev" target="_blank" data-toggle="tooltip" title="Sigueme en Twitter">
                             <i class="fa fa-twitter-square"></i>
                             <span class="nav-link-inner--text d-lg-none">Twitter</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial/argon-design-system" target="_blank" data-toggle="tooltip" title="Star us on Github">
+                        <a class="nav-link nav-link-icon" href="https://github.com/yickson" target="_blank" data-toggle="tooltip" title="Repositorios">
                             <i class="fa fa-github"></i>
                             <span class="nav-link-inner--text d-lg-none">Github</span>
                         </a>
