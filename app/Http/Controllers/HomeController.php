@@ -15,4 +15,9 @@ class HomeController extends Controller
     {
         return view('front.api');
     }
+
+    public function blog()
+    {
+        return view('front.blog');
+    }
 }
