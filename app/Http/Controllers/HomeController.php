@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('front.profile');
     }
+
+    public function api()
+    {
+        return view('front.api');
+    }
 }

@@ -27,12 +27,14 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" role="button">
                             <i class="ni ni-collection d-lg-none"></i>
-                            <span class="nav-link-inner--text">Información</span>
+                            <span class="nav-link-inner--text">Portafolio</span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="https://social.yickson.cl" target="_blank" class="dropdown-item" target="_blank">Red Social - Laravel</a>
+                            <a href="https://social.yickson.cl" target="_blank" class="dropdown-item">Red Social - Laravel</a>
                             <a href="https://notal.yickson.cl" target="_blank" class="dropdown-item">Aplicación de notas - Laravel</a>
                             <a href="https://notas.yickson.cl" target="_blank" class="dropdown-item">Aplicación de notas - VueJs - MongoDB</a>
+                            <a href="https://chat.yickson.cl" target="_blank" class="dropdown-item">Chat - NodeJs - SocketIO</a>
+                            <a href="{{ route('starwars') }}" class="dropdown-item">API StarWars - NodeJs - MongoDB</a>
                             <a href="#" class="dropdown-item">Contacto</a>
                         </div>
                     </li>
