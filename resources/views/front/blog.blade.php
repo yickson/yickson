@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
-                    <h2 class="display-2 text-white">Revisa mis últimos posts</h2>
+                    <h2 class="display-2 text-white">Posts</h2>
                 </div>
             </div>
             <div class="row">
