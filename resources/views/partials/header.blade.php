@@ -35,6 +35,7 @@
                             <a href="https://notas.yickson.cl" target="_blank" class="dropdown-item">Aplicación de notas - VueJs - MongoDB</a>
                             <a href="https://chat.yickson.cl" target="_blank" class="dropdown-item">Chat - NodeJs - SocketIO</a>
                             <a href="https://dinero.yickson.cl" target="_blank" class="dropdown-item">Aplicación de Remesas</a>
+                            <a href="https://blog.yickson.cl" target="_blank" class="dropdown-item">Blog - Laravel VueJS</a>
                             <a href="{{ route('starwars') }}" class="dropdown-item">API StarWars - NodeJs - MongoDB</a>
                             <a href="#" class="dropdown-item">Contacto</a>
                         </div>
